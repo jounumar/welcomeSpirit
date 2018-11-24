@@ -6,12 +6,12 @@ client.on('ready', () => {
 });
 
 client.on('guildMemberAdd', member => {
-      if(member.guild.id !== '474567474940084234') return;
+      if(member.guild.id !== '507500031994101763') return;
     setTimeout(function() {
-    member.guild.channels.find(r => r.id === '507233340751872001').send('*Welcome To* ***Fèarless*** *Server*..');
+    member.guild.channels.find(r => r.id === '516014142860296203').send('**Welcome To Spirrrrrrit Server ..**');
 },3000);
 });
 
 
 
-client.login("MzUwODA5MDM2MzM5MjgxOTIx.Dtq98w.04l6-Gp5OGpWOEEVH7ShX2B4nrY");
+client.login(process.env.BOT_TOKEN);
