@@ -6,9 +6,9 @@ client.on('ready', () => {
 });
 
 client.on('guildMemberAdd', member => {
-      if(member.guild.id !== '507500031994101763') return;
+      if(member.guild.id !== '640308810795319307') return;
     setTimeout(function() {
-    member.guild.channels.find(r => r.id === '516014142860296203').send('**Welcome To Spirrrrrrit Server ..**');
+    member.guild.channels.find(r => r.id === '683035809858977927').send('**ولكم تو سيرفر هز ..**');
 },3000);
 });
 
